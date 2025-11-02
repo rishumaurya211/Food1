@@ -1,0 +1,35 @@
+.order-container {
+  padding: 20px;
+  max-width: 600px;
+}
+
+.order-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.order-item {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.order-item img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.order-item-food {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.order-status {
+  font-size: 14px;
+  color: green;
+}
