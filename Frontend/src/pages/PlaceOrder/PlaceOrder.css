@@ -1,0 +1,86 @@
+.place-order {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 50px;
+  margin-top: 100px;
+}
+.place-order-left {
+  width: 100%;
+  max-width: max(30%, 500px);
+}
+.place-order-left .title {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+.place-order-left input {
+  margin-bottom: 15px;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #c5c5c5;
+  border-radius: 4px;
+  outline-color: tomato;
+}
+.place-order-left .multi-fields {
+  display: flex;
+  gap: 10px;
+}
+.place-order-right {
+  width: 100%;
+  max-width: max(40%, 500px);
+}
+.place-order-right {
+  width: 100%;
+  max-width: max(40%, 500px);
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.cart-total hr {
+  margin: 15px 0; /* More spacing between sections */
+  border: none;
+  height: 1px;
+  background: #ddd;
+}
+
+.cart-total .cart-total-details {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 15px 0; /* Added space between items */
+}
+
+.cart-total .cart-total-details b {
+  font-size: 18px;
+}
+
+.cart-total .total {
+  font-size: 20px;
+  font-weight: bold;
+  border-top: 2px solid #ddd;
+  padding-top: 15px; /* Space above Total */
+  margin-top: 10px;
+}
+
+.place-order .cart-total button {
+  margin-top: 30px;
+  width: 100%;
+  padding: 12px;
+  background: tomato;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.place-order .cart-total button:hover {
+  background: #e64a19;
+  transform: scale(1.02);
+}
